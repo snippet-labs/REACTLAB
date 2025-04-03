@@ -1,7 +1,6 @@
-import Greeting from "./components/Greeting/Greeting";
+import Greeting from "./components/Basics/Greeting";
+
 const App = () => {
-  return (
-    <Greeting/>
-  )
+  return <Greeting />;
 };
 export default App;

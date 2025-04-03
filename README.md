@@ -7,7 +7,4 @@
   <h1 style="margin: 0; font-family: Arial, sans-serif; font-size: 24px;d"> reactLab | Team Snippet sessions </h1>
 </div>
 
-
-
-### Cheers ! ✨
 ##### TEAM SNIPPETS
