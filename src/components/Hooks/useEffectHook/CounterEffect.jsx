@@ -1,13 +1,13 @@
 import React from "react";
 import { useState, useEffect } from "react";
-const Counter1 = () => {
+const CounterEffect = () => {
   const [count, setCount] = useState(0);
-//   const [count1, setCount1] = useState(0);
-//   console.log("Component Rendered");
+  //   const [count1, setCount1] = useState(0);
+  //   console.log("Component Rendered");
 
   useEffect(() => {
     console.log("useEffect called");
-  },[count]);
+  }, [count]);
 
   const increment = () => {
     setCount(count + 1);
@@ -16,7 +16,7 @@ const Counter1 = () => {
 
   const decrement = () => {
     setCount(count - 1);
-  }
+  };
 
   return (
     <div>
@@ -27,4 +27,4 @@ const Counter1 = () => {
   );
 };
 
-export default Counter1;
+export default CounterEffect;
