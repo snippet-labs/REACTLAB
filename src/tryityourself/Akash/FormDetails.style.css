@@ -1,0 +1,12 @@
+.field {
+  @apply border border-white text-white p-1 rounded-md;
+}
+.labell {
+  @apply text-white hover:cursor-pointer;
+}
+.background {
+  @apply w-full h-screen flex items-center justify-center flex-col bg-slate-950;
+}
+.btn {
+  @apply border-1 border-white rounded-md bg-white text-black hover:cursor-pointer p-1;
+}
