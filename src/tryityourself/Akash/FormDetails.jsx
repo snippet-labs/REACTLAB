@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from "react";
-import { CgSlack } from "react-icons/cg";
 
 const FormDetails = () => {
   const [formVal, setFormVal] = useState({
@@ -94,7 +93,7 @@ const FormDetails = () => {
 
   return (
     <>
-      <h1 classname="w-full h-screen flex items-center justify-center bg-transparent text-white">
+      <h1 classname="w-full h-screen flex items-center justify-center bg-green-700 text-white">
         HEY THERE, DEAR USER!
       </h1>
       <div className="background">
