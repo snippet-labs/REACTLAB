@@ -94,7 +94,7 @@ const FormDetails = () => {
 
   return (
     <>
-      <h1 classname="w-full h-screen flex items-center justify-center flex-col bg-transparent text-white">
+      <h1 classname="w-full h-screen flex items-center justify-center bg-transparent text-white">
         HEY THERE, DEAR USER!
       </h1>
       <div className="background">
