@@ -93,11 +93,9 @@ const FormDetails = () => {
 
   return (
     <>
-      <h1 classname="w-full h-screen flex items-center justify-center bg-green-700 text-white">
-        HEY THERE, DEAR USER!
-      </h1>
-      <div className="background">
-        <form className="flex flex-col gap-1">
+      <div className="flex justify-center items-center flex-col">
+        <h1 className="text-2xl">HEY THERE, DEAR USER!</h1>
+        <form className="">
           <label className="labell" onClick={handleGuideMeName}>
             Full Name :
           </label>
@@ -111,7 +109,7 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="labell" onClick={handleGuideMeEmail}>
+          <label className="" onClick={handleGuideMeEmail}>
             Email :
           </label>
           <input
@@ -124,7 +122,7 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="labell" onClick={handleGuideMePhone}>
+          <label className="" onClick={handleGuideMePhone}>
             Phone :
           </label>
           <input
@@ -137,7 +135,7 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="labell" onClick={handleGuideMePassword}>
+          <label className="" onClick={handleGuideMePassword}>
             Password :
           </label>
           <input
@@ -150,7 +148,7 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="labell" onClick={handleGuideMeConfirmPassword}>
+          <label className="" onClick={handleGuideMeConfirmPassword}>
             Confirm Pasword :
           </label>
           <input
@@ -163,7 +161,7 @@ const FormDetails = () => {
             className="field"
           />
 
-          <button disabled={isDisabled} onClick={handleSubmit} className="btn">
+          <button disabled={isDisabled} onClick={handleSubmit} className="">
             {isLoading ? "Submitting" : "Submit"}
           </button>
           <button className="btn" onClick={clearForm}>

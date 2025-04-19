@@ -5,8 +5,13 @@
   @apply text-white hover:cursor-pointer;
 }
 .background {
-  @apply w-full h-screen flex items-center justify-center flex-col bg-transparent;
+  @apply w-full h-screen flex items-center justify-center flex-col bg-slate-900/40;
 }
 .btn {
   @apply border-1 border-white rounded-md bg-white text-black hover:cursor-pointer p-1;
 }
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
