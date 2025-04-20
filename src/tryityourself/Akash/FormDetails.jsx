@@ -32,22 +32,18 @@ const FormDetails = () => {
     guideMeName.current.focus();
     console.log(guideMeName.current);
   };
-
   const handleGuideMeEmail = () => {
     guideMeEmail.current.focus();
     console.log(guideMeEmail.current);
   };
-
   const handleGuideMePhone = () => {
     guideMePhone.current.focus();
     console.log(guideMePhone.current);
   };
-
   const handleGuideMePassword = () => {
     guideMePassword.current.focus();
     console.log(guideMePassword.current);
   };
-
   const handleGuideMeConfirmPassword = () => {
     guideMeConfirmPassword.current.focus();
     console.log(guideMeConfirmPassword.current);
@@ -69,12 +65,12 @@ const FormDetails = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [isDisabled, setIsDisabled] = useState(false);
 
-  // Perform password validation first ; took help of AI
+  // PERFORM PASSWORD VGALIDATION FIRST : TOOK HELP OF AI
   const handleSubmit = (e) => {
     e.preventDefault();
     if (formVal.password !== formVal.confirmPassword) {
-      alert("Password and Confirm Password do not match!");
-      return; // Stop submission if validation fails
+      alert("PASSWORD IS CRYING IN THE CORNER!");
+      return clearForm(); // Stop submission if validation fails
     }
 
     // Proceed with form submission
@@ -93,9 +89,11 @@ const FormDetails = () => {
 
   return (
     <>
-      <div className="flex justify-center items-center flex-col">
-        <h1 className="text-2xl">HEY THERE, DEAR USER!</h1>
-        <form className="">
+      <div className="background">
+        <form className="form">
+          <h1 className="text-3xl text-[#B3FF00] font-semibold tracking-[.125em] pb-5 text-center relative">
+            Register<span className="text-purple-500">!</span>
+          </h1>
           <label className="labell" onClick={handleGuideMeName}>
             Full Name :
           </label>
@@ -109,7 +107,7 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="" onClick={handleGuideMeEmail}>
+          <label className="labell" onClick={handleGuideMeEmail}>
             Email :
           </label>
           <input
@@ -122,12 +120,12 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="" onClick={handleGuideMePhone}>
+          <label className="labell" onClick={handleGuideMePhone}>
             Phone :
           </label>
           <input
             ref={guideMePhone}
-            type="text"
+            type="tel"
             placeholder="Phone Here"
             name="phone"
             value={formVal.phone}
@@ -135,12 +133,12 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="" onClick={handleGuideMePassword}>
+          <label className="labell" onClick={handleGuideMePassword}>
             Password :
           </label>
           <input
             ref={guideMePassword}
-            type="text"
+            type="password"
             placeholder="Password Here"
             name="password"
             value={formVal.password}
@@ -148,25 +146,31 @@ const FormDetails = () => {
             className="field"
           />
           <br />
-          <label className="" onClick={handleGuideMeConfirmPassword}>
-            Confirm Pasword :
+          <label className="labell" onClick={handleGuideMeConfirmPassword}>
+            Confirm Password :
           </label>
           <input
             ref={guideMeConfirmPassword}
-            type="text"
+            type="password"
             placeholder="Confirm Password"
             name="confirmPassword"
             value={formVal.confirmPassword}
             onChange={handleChange}
             className="field"
           />
-
-          <button disabled={isDisabled} onClick={handleSubmit} className="">
-            {isLoading ? "Submitting" : "Submit"}
-          </button>
-          <button className="btn" onClick={clearForm}>
-            Clear
-          </button>
+          <br />
+          <div className="btnrow">
+            <button
+              className="btn"
+              disabled={isDisabled}
+              onClick={handleSubmit}
+            >
+              {isLoading ? "Submitting" : "Submit"}
+            </button>
+            <button className="btn" onClick={clearForm}>
+              Clear
+            </button>
+          </div>
         </form>
       </div>
     </>
