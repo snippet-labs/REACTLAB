@@ -4,13 +4,12 @@ import Counter from "./components/Hooks/useStateHook/Counter";
 import Form from "./project/Form";
 import ThemeToggler from "./project/ThemeToggler";
 import HandlingForm from "./components/Hooks/useRefHook/HandlingForm";
-
 // TRY IT YOURSELF COMPONENTS
 import FormDetails from "./tryityourself/Akash/FormDetails";
-import RandomBg from "./tryityourself/Akash/RandomBg";
+import RandomBackground from "./tryityourself/Akash/RandomBackground";
 
 const App = () => {
-  return <RandomBg />;
+  return <RandomBackground />;
 };
 
 export default App;
