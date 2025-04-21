@@ -92,7 +92,8 @@ const FormDetails = () => {
       <div className="background">
         <form className="form">
           <h1 className="text-3xl text-[#B3FF00] font-semibold tracking-[.125em] pb-5 text-center relative">
-            Register<span className="text-purple-500">!</span>
+            Reg<span className="text-purple-500">i</span>ster
+            <span className="text-purple-500">!</span>
           </h1>
           <label className="labell" onClick={handleGuideMeName}>
             Full Name :

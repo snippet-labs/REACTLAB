@@ -1,16 +1,16 @@
 // COMPONENTS
 import Greeting from "./components/Basics/Greeting";
 import Counter from "./components/Hooks/useStateHook/Counter";
-//import CounterEffect from "./components/Hooks/useEffectHook/Counter1";
 import Form from "./project/Form";
 import ThemeToggler from "./project/ThemeToggler";
 import HandlingForm from "./components/Hooks/useRefHook/HandlingForm";
 
 // TRY IT YOURSELF COMPONENTS
 import FormDetails from "./tryityourself/Akash/FormDetails";
+import RandomBg from "./tryityourself/Akash/RandomBg";
 
 const App = () => {
-  return <FormDetails />;
+  return <RandomBg />;
 };
 
 export default App;
