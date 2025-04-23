@@ -8,8 +8,11 @@ import HandlingForm from "./components/Hooks/useRefHook/HandlingForm";
 import FormDetails from "./tryityourself/Akash/FormDetails";
 import RandomBackground from "./tryityourself/Akash/RandomBackground";
 
+// PROJECTS
+import StopWatch from "./project/StopWatch/StopWatch";
+
 const App = () => {
-  return <RandomBackground />;
+  return <StopWatch />;
 };
 
 export default App;
