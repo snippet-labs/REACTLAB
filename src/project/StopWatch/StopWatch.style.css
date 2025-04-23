@@ -1,0 +1,7 @@
+.CONTAINER {
+  @apply h-screen w-full flex flex-col items-center justify-center bg-slate-500 text-black;
+}
+
+.BUTTON {
+  @apply p-2 rounded-md border-1 border-black hover:bg-black hover:text-white hover:cursor-pointer;
+}
