@@ -1,0 +1,3 @@
+.field {
+  @apply border-1 border-white text-white p-1 rounded-md;
+}
