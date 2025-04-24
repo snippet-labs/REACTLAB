@@ -38,13 +38,13 @@ Include relevant screenshots / video if applicable.
 
 | MESSAGE                                                 | CONFIRMATION |
 | ------------------------------------------------------- | ------------ |
-| `I confirm that I am responsible for this pull request` | [x]          |
+| `I confirm that I am responsible for this pull request` | `yes/no`     |
 
 #### ACCEPTANCE OF MY WORK
 
 | MESSAGE                                        | CONFIRMATION |
 | ---------------------------------------------- | ------------ |
-| `I have worked on all the acceptance criteria` | [x]          |
+| `I have worked on all the acceptance criteria` | `yes/no`     |
 
 #### GIT FOLLOW UPS
 
