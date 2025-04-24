@@ -34,6 +34,18 @@ Include relevant screenshots / video if applicable.
 
 <hr>
 
+#### OWNERSHIP
+
+| MESSAGE                                                 | CONFIRMATION |
+| ------------------------------------------------------- | ------------ |
+| `I confirm that I am responsible for this pull request` | [x]          |
+
+#### ACCEPTANCE OF MY WORK
+
+| MESSAGE                                        | CONFIRMATION |
+| ---------------------------------------------- | ------------ |
+| `I have worked on all the acceptance criteria` | [x]          |
+
 #### GIT FOLLOW UPS
 
 | COMMAND                 | EFFECT                                                                         |
