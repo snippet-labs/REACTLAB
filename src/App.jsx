@@ -10,8 +10,13 @@ import DisplayList from "./components/Hooks/useCallback/DisplayList";
 import FormDetails from "./tryityourself/Akash/FormDetails";
 import RandomBackground from "./tryityourself/Akash/RandomBackground";
 
+// PROJECTS
+import StopWatch from "./project/StopWatch/StopWatch";
+
 const App = () => {
+
   return <DisplayList />;
+
 };
 
 export default App;
