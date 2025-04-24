@@ -1,0 +1,18 @@
+.field {
+  @apply border border-purple-500 text-white p-1 rounded-md;
+}
+.labell {
+  @apply text-white hover:cursor-pointer;
+}
+.btn {
+  @apply flex justify-center items-center border-1 rounded-md bg-white text-black hover:cursor-pointer hover:bg-[#B3FF00] hover:text-purple-500 font-semibold p-2 w-full;
+}
+.form {
+  @apply flex flex-col gap-0.25 max-w-80 max-h-screen bg-black p-10 rounded-3xl border-x border-[#B3FF00];
+}
+.background {
+  @apply flex justify-center items-center h-screen bg-[#101010];
+}
+.btnrow {
+  @apply flex gap-1;
+}

@@ -1,2 +1,5 @@
 @import "tailwindcss";
 @import "./components/Hooks/useRefHook/HandlingForm.style.css";
+@import "./tryityourself/Akash/FormDetails.style.css";
+@import "./tryityourself/Akash/RandomBackground.style.css";
+@import "./project/StopWatch/StopWatch.style.css";
