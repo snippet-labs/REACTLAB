@@ -9,13 +9,14 @@ import DisplayList from "./components/Hooks/useCallback/DisplayList";
 // TRY IT YOURSELF COMPONENTS
 import FormDetails from "./tryityourself/Akash/FormDetails";
 import RandomBackground from "./tryityourself/Akash/RandomBackground";
+import WindowTape from "./tryityourself/Tushit/WindowTape";
 
 // PROJECTS
 import StopWatch from "./project/StopWatch/StopWatch";
 
 const App = () => {
 
-  return <DisplayList />;
+  return <WindowTape/>;
 
 };
 
