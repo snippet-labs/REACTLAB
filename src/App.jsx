@@ -8,8 +8,11 @@ import HandlingForm from "./components/Hooks/useRefHook/HandlingForm";
 import FormDetails from "./tryityourself/Akash/FormDetails";
 import RandomBackground from "./tryityourself/Akash/RandomBackground";
 
+import FormDetailsSubhajit from "./tryityourself/Subhajit/FormDetails"
+
 const App = () => {
-  return <RandomBackground />;
+  // return <RandomBackground />;
+  return <FormDetailsSubhajit/>;
 };
 
 export default App;

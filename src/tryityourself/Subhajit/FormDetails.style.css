@@ -1,0 +1,16 @@
+
+.bg{
+    @apply w-full h-full min-h-screen flex flex-col justify-center items-center
+}
+.frm{
+    @apply w-90  h-[100%] bg-[#F5EFFF] flex flex-col justify-center items-center  sm:py-10 rounded-xl
+}
+.lbl{
+    @apply pt-5
+}
+.fld {
+    @apply  rounded-sm px-4 py-2 bg-[#CDC1FF] 
+}
+.bt{
+    @apply bg-[#CDC1FF] px-6 py-2 m-8 border rounded-md 
+}
