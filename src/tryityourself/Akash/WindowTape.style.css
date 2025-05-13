@@ -1,0 +1,7 @@
+.ScreenSize {
+  @apply w-[500px] h-[100px] flex justify-center items-center p-2 text-3xl font-semibold text-white border-[2.5px] border-white rounded-md bg-gray-950 shadow-xl shadow-black;
+}
+
+.Background {
+  @apply h-screen flex justify-center items-center bg-orange-700;
+}
