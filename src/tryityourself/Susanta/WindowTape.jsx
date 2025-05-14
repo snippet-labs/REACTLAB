@@ -1,7 +1,7 @@
 import {
     useEffect,
     useState
- } from "react";
+} from "react";
 
 
 function WindowTape() {
@@ -25,15 +25,18 @@ function WindowTape() {
 
     return (
         <>
-            <div className="container mx-auto px-4">
-                <h1 className="text-4xl font-bold">Welcome to WindowTape</h1>
-                <p className="mt-4">This is a simple app, which shows the window width and height, while resizing the window...</p>
-            </div>
-            <div className="container mx-auto px-4 mt-4">
-                <div className="bg-gray-100 p-4 rounded shadow-md">
-                    <h2 className="text-xl font-semibold">Window Size</h2>
-                    <p className="mt-2">Width: {windowSize.width}px</p>
-                    <p className="mt-2">Height: {windowSize.height}px</p>
+            <div className="bg-purple-900/70 flex justify-center items-center min-w-screen min-h-screen">
+                <div className="bg-purple-300 rounded-full p-6 px-10 text-4xl text-bold border-2 border-gray-300">
+                    <table>
+                        <tr>
+                            <td className="p-2">WIDTH</td>
+                            <td className="p-2">{windowSize.width}px</td>
+                        </tr>
+                        <tr>
+                            <td className="p-2">HEIGHT</td>
+                            <td className="p-2">{windowSize.height}px</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </>
