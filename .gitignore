@@ -30,3 +30,6 @@ npm-shrinkwrap.json
 # bun lockfiles
 bun.lockb
 bun.lock
+
+# pnpm lockfiles
+pnpm-lock.yaml
